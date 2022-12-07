@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+body {
+   margin: 0px;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+   color: #697b80;
+   margin-top: 30px;
+   font-family: 'Merienda One', cursive;
+   font-size: 60px;
+}
+
+h2, h3 {
+   color: #697b80;
+}
+
+h2 {
+   font-size: 34px;
+}
+
+p {
+   font-weight: bold;
+   line-height: 2;
+}
+
+.top-container {
+   background-color: #f9ebc8;
+   position: relative;
+   padding-top: 70px;
+}
+
+.middle-container {
+   background-color: #FEFBE7;
+}
+
+.bottom-container {
+   background-color: #f9ebc8;
+}
+
+#cloud1 {
+   position: absolute;
+   right: 33%;
+   top: 50px;
+   opacity: 0.7;
+}
+
+#cloud2 {
+   position: absolute;
+   left: 34%;
+   top: 190px;
+   opacity: 0.7;
+}
+
+hr {
+   border-color: #bbbbbb;
+   border-width: 8px;
+   border-style: none;
+   border-top-style: dotted;
+   width: 6%;
+}
+
+#secretary {
+   color: #697b80;
+   font-size: 30px;
+   padding-bottom: 50px;
+}
+
+.pam {
+   width: 190px;
+   height: auto;
+   border-radius: 90px;
+   transition: 0.4s;
+}
+
+.pam:hover {
+   width: 240px;
+   border-radius: 50%;
+   border: 2px solid #697b80;
+   cursor: zoom-in; 
+}
+
+.skill-row {
+   margin: 40px auto 40px auto;
+   width: 40%;
+}
+
+.skill-row img {
+   width: 125px;
+   height: auto;
+}
+
+.footer-link {
+   margin-right: 20px;
+}
+
+#surname {
+   margin-bottom: 0;
+   padding-bottom: 5px;
+}
+
+.bottom-container {
+   background-color: #f9ebc8;
+   padding: 5px 0 10px 0;
+}
+
+.contact-me {
+   background-color: #f9ebc8;
+   margin-bottom: 30px;
+}
+
+#last {
+   margin-bottom: 30px;
+}
+
+.bottom-container a {
+   text-decoration: none;
+   color: blue;
+   font-size: 20px;
+}
+
+.bottom-container a:hover {
+   color: darkred;
+   font-weight: bolder;
+}
+
+.btn {
+   text-decoration: none;
+   border-radius: 8px;
+   background: #A0BCC2;
+   background-image: -moz-linear-gradient(top, #a0bcc2, #718388);
+   padding: 10px;
+   font-weight: bolder;
+}
+
+.btn:hover {
+   color: darkred;
+   font-weight: bolder;
+   background: #6e7f83;
+   border: 1px solid black;
+}
+
+@media (max-width: 450px) {
+   h1 {
+      font-size: 49px;
+      margin-bottom: 0;
+   }
+
+   #cloud2 {
+      display: none;
+   }
+
+   #secretary {
+      margin: 0;
+   }
+}
